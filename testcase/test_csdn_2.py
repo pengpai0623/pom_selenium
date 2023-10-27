@@ -62,4 +62,4 @@ class TestCaseLogin(object):
 
 
 if __name__ == '__main__':
-    testlogin = TestCaseLogin()
+    pytest.main(['-q', '-s', 'test_csdn_2.py'])
